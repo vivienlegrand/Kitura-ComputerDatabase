@@ -1,5 +1,5 @@
 # Kitura-ComputerDatabase
-Sample backend using [Kitura](https://github.com/IBM-Swift/Kitura) 1.2 and [Zewo's PostgreSQL adapter](https://github.com/Zewo/PostgreSQL).  
+Sample backend using [Kitura](https://github.com/IBM-Swift/Kitura) 1.3 and [Zewo's PostgreSQL adapter](https://github.com/Zewo/PostgreSQL).  
 The project is an updated and simple version of the sample made by IBM : [TodoList-PostgreSQL](https://github.com/IBM-Swift/TodoList-PostgreSQL)
 
 ---
@@ -31,7 +31,8 @@ CREATE TABLE computer
 ---
 ## Launch
 ```bash
-swift build
+swift build -Xcc -I/usr/local/include -Xlinker -L/usr/local/lib/ 
+.build/debug/Deploy
 ```
 
 ---
