@@ -1,6 +1,6 @@
 # Kitura-ComputerDatabase
-Sample backend using [Kitura](https://github.com/IBM-Swift/Kitura) 1.2 and [Zewo's PostgreSQL adapter](https://github.com/Zewo/PostgreSQL).   
-> The project is an updated and simple version of the sample made by IBM : [TodoList-PostgreSQL](https://github.com/IBM-Swift/TodoList-PostgreSQL)
+Sample backend using [Kitura](https://github.com/IBM-Swift/Kitura) 1.2 and [Zewo's PostgreSQL adapter](https://github.com/Zewo/PostgreSQL).  
+The project is an updated and simple version of the sample made by IBM : [TodoList-PostgreSQL](https://github.com/IBM-Swift/TodoList-PostgreSQL)
 
 ---
 ## Requirements
@@ -39,16 +39,16 @@ swift build
 
 * Index  
 `GET` with <localhost:8090/computer>
-* Get by Id
+* Get by Id  
 `GET` with <localhost:8090/computer/:id>
-* Add
+* Add  
 `POST` with <localhost:8090/computer>
-* Update
+* Update  
 `POST` with <localhost:8090/computer/:id>
-* Delete
+* Delete  
 `DELETE` with <localhost:8090/computer/:id>
 
 ---
 ## More info
 
-This project does not include Security capabilities of Kitura. For more info about Kitura, visite <http://www.kitura.io/en/resources/tutorials.html>. You can try Swift with [MySQL](https://github.com/Zewo/MySQL) or [Redis](https://github.com/IBM-Swift/Kitura-redis).
+This project does not include Security capabilities of Kitura. For more info about Kitura, visite <http://www.kitura.io/en/resources/tutorials.html>.
